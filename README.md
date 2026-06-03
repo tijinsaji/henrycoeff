@@ -1,7 +1,7 @@
 # henrycoeff
 
 ## Features
-Allows the computation of Henry coefficient in the units of [mol/m3/Pa] directly from
+Allows the computation of the Henry coefficient in the units of [mol/m$^{3}$/Pa] directly from
 the sim.log output file of Brick-CFCMC
   
 
@@ -9,18 +9,17 @@ the sim.log output file of Brick-CFCMC
 You can install this package locally by cloning the repository and using `pip`:
 
 ```bash
-git clone [https://github.com/tijinsaji/compiledUdl.git](https://github.com/tijinsaji/compiledUdl.git)
+git clone [https://github.com/tijinsaji/henrycoeff.git](https://github.com/tijinsaji/henrycoeff.git)
 
-cd compiledUdl
+cd henrycoeff
 
 pip install -r requirements.txt .
 ```
 
 
 ## Usage
-Go to the directory which contains the $\lambda$ directories and do
 ```python
-import compiledUdl
+import henrycoeff
 
-compiledUdl.main()
+henrycoeff.main()
 ```
