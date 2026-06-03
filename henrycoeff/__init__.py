@@ -20,13 +20,14 @@ def main():
         print("Usage: henrycoef /path/to/simulation/directory")
         sys.exit(1)'''
 
+    #print("Enter the name of the solvent, the display name of fractional molecule, and the current directory path where sim.log is located as command line arguments.")
     solvent_name = input("Enter the name of the solvent: ")
-    solvent_name = sys.argv[1]
+    #solvent_name = sys.argv[1]
     fractional_molecule = input("Enter the display name of fractional molecule: ")
-    fractional_molecule = sys.argv[2]
+    #fractional_molecule = sys.argv[2]
 
     current_directory = input("Enter the current directory path where sim.log is located: ")
-    current_directory = sys.argv[3] 
+    #current_directory = sys.argv[3] 
     logfile = os.path.join(current_directory, "sim.log") 
     settings_filepath = os.path.join(current_directory, "INPUT/settings.in") 
     
