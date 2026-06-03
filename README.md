@@ -1,7 +1,7 @@
 # henrycoeff
 
 ## Features
-Allows the computation of the Henry coefficient in the units of [mol/m$^{3}$/Pa] directly from
+Allows the computation of the Henry coefficient in the units of [mol/m3/Pa] directly from
 the sim.log output file of Brick-CFCMC
   
 
