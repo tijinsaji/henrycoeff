@@ -9,7 +9,7 @@ the sim.log output file of Brick-CFCMC
 You can install this package locally by cloning the repository and using `pip`:
 
 ```bash
-git clone [https://github.com/tijinsaji/henrycoeff.git](https://github.com/tijinsaji/henrycoeff.git)
+git clone https://github.com/tijinsaji/henrycoeff.git
 
 cd henrycoeff
 
